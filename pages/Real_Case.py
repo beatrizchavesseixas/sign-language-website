@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import cv2
 
 #Display logo on the left and titleon the right
 col1, col2 = st.columns([1, 6])
