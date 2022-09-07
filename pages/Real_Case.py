@@ -4,7 +4,7 @@ import cv2
 
 #Display logo on the left and titleon the right
 col1, col2 = st.columns([1, 6])
-medical_image = Image.open('image.png')
+medical_image = Image.open('med_symbol.jpg')
 with col1:
     st.image(medical_image, width=100)
 with col2:
