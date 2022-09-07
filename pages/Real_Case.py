@@ -12,4 +12,4 @@ with col2:
 
 #Visualize patient info
 st.subheader("Patient details")
-st.text("Name: Sarah Sanders \nAge:30\nGenre: Female")
+st.text("Name: XXXXX XXXXX \nAge:XX\nGenre: XXXXX")
