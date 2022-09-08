@@ -14,5 +14,5 @@ st.subheader("The progress")
 st.text("Step 1")
 
 
-biavideo = open('beatriz_novo.mp4', 'rb')
+biavideo = open('beatriz_novo.mp4')
 st.video(biavideo, format='video/mp4', start_time=0)
