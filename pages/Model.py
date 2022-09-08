@@ -14,7 +14,7 @@ st.subheader("Patient details")
 st.text("Name: Patricia Washington \nAge:31\nGenre: Female")
 
 
-biavideo = open('beatriz.mp4', 'rb')
+biavideo = open('beatriz_novo.mp4', 'rb')
 video_bytes = biavideo.read()
 
 st.video(video_bytes)
