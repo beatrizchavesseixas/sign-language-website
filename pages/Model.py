@@ -16,4 +16,4 @@ st.text("Step 1")
 
 
 giovideo = open("giovanna_novo.mp4", "rb")
-st.video(giovideo, width=200)
+st.video(giovideo)
