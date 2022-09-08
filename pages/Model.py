@@ -12,7 +12,3 @@ with col2:
 #Visualize patient info
 st.subheader("The progress")
 st.text("Step 1")
-
-
-giovideo = open("giovanna_novo.mp4", "rb")
-st.video(giovideo)
