@@ -14,7 +14,7 @@ st.subheader("Patient details")
 st.text("Name: Patricia Washington \nAge:31\nGenre: Female")
 
 
-file = open(r"/home/beatrizclseixas/code/beatrizchavesseixas/sign-language-website/beatriz.gif", 'rb')
+file = open(r"/home/beatrizclseixas/code/beatrizchavesseixas/sign-language-website/pages/beatriz.gif", 'rb')
 contents = file.read()
 data_url = base64.b64encode(contents).decode('utf-8-sig')
 file.close()
