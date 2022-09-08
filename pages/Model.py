@@ -14,12 +14,5 @@ st.subheader("Patient details")
 st.text("Name: Patricia Washington \nAge:31\nGenre: Female")
 
 
-file_ = open("/home/beatrizclseixas/code/beatrizchavesseixas/sign-language-website/beatriz.gif", "rb")
-contents = file_.read()
-data_url = base64.b64encode(contents).decode("utf-8")
-file_.close()
-
-st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-    unsafe_allow_html=True,
-)
+biagif= Image.open('beatriz.gif')
+st.image(biagif, use_column_width=False)
