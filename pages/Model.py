@@ -14,5 +14,16 @@ st.subheader("The progress")
 st.text("Step 1")
 
 
-biavideo = open("beatriz_novo.mp4", "rb")
-st.video(biavideo)
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    giovideo = open("giovanna_novo.mp4", "rb")
+    st.video(giovideo)
+
+with col2:
+    biavideo = open("beatriz_novo.mp4", "rb")
+    st.video(biavideo)
+
+with col3:
+    pablovideo = open("pablo_novo.mp4", "rb")
+    st.video(pablovideo)
