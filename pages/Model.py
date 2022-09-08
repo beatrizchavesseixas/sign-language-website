@@ -10,8 +10,8 @@ with col2:
 
 
 #Visualize patient info
-st.subheader("Patient details")
-st.text("Name: Patricia Washington \nAge:31\nGenre: Female")
+st.subheader("The progress")
+st.text("Step 1")
 
 
 biavideo = open('beatriz_novo.mp4', 'rb')
