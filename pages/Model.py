@@ -15,6 +15,4 @@ st.text("Step 1")
 
 
 biavideo = open('beatriz_novo.mp4', 'rb')
-video_bytes = biavideo.read()
-
-st.video(video_bytes)
+st.video(biavideo, format='video/mp4', start_time=0)
