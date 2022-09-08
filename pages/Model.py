@@ -1,3 +1,4 @@
+from turtle import width
 import streamlit as st
 from PIL import Image
 
@@ -15,4 +16,4 @@ st.text("Step 1")
 
 
 giovideo = open("giovanna_novo.mp4", "rb")
-st.video(giovideo)
+st.video(giovideo, width=200)
