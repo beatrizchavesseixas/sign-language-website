@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+
 patient_image = Image.open('patient.jpg')
 st.image(patient_image, width = 250, use_column_width=False)
 
